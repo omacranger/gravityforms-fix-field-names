@@ -41,7 +41,7 @@ class GravityForms_Fix_Field_Names {
 		$field_name = $field->inputName;
 
 		if ( ! empty( $field_name ) ) {
-			$input = $field->get_field_input( $form_id, $value );
+			$input = $field->get_field_input( GFAPI::get_form( $form_id ), $value );
 			$input = preg_replace( "/name='.*?'/", "name='$field_name'", $input );
 		}
 
