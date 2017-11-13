@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: GravityForms Fix Field Names
-Plugin URI:
+Plugin URI: https://github.com/omacranger/gravityforms-fix-field-names
 Description: Changes input element name attributes to custom name (if set) to prevent auto filling invalid data.
 Version: 0.1.0
 Author: Logan Graham
-Author URI:
+Author URI: https://twitter.com/LoganPGraham
 Text Domain: gf-fix-field-names
 */
 
